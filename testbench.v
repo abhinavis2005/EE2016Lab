@@ -1,4 +1,4 @@
-module stimulus;
+module stimulus
 
 reg [3:0] Multiplier, Multiplicand;
 wire [7:0] Output;
@@ -39,7 +39,4 @@ begin
     
     #4 $finish;
 end
-endmodule`
-
-
-
+endmodule
