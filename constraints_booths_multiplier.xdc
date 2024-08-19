@@ -41,7 +41,7 @@ set_property -dict { PACKAGE_PIN K2    IOSTANDARD LVCMOS33 } [get_ports { prod[7
 #set_property -dict { PACKAGE_PIN T5    IOSTANDARD LVCMOS33 } [get_ports { led[12] }];
 #set_property -dict { PACKAGE_PIN R5    IOSTANDARD LVCMOS33 } [get_ports { led[13] }];
 #set_property -dict { PACKAGE_PIN T10   IOSTANDARD LVCMOS33 } [get_ports { led[14] }];
-#set_property -dict { PACKAGE_PIN T9    IOSTANDARD LVCMOS33 } [get_ports { Finish }];#MSB
+#set_property -dict { PACKAGE_PIN T9    IOSTANDARD LVCMOS33 } [get_ports { busy }];#MSB
 
 # Push Button
 #set_property -dict {PACKAGE_PIN K13 IOSTANDARD LVCMOS33 PULLDOWN true} [get_ports {pb[0]}]; #Button-top
