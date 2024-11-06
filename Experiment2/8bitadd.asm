@@ -1,3 +1,4 @@
+; given two 8-bit binary words(byte) compute the sum and store it in a register
 start:
   .cseg
   .org  0x00
